@@ -7,42 +7,32 @@
     <script src="https://kit.fontawesome.com/1f25bcbe49.js" crossorigin="anonymous"></script>
     <title>👨🏻‍💻 Rafael Park</title>
 </head>
-<body class="flex flex-col py-15 px-15 max-w-6xl mx-auto">
-    <header class="flex justify-between mb-10">
-        <p class="text-xl font-semibold">Rafael Park</p>
-        <nav class="flex items-center gap-6">
-            <a href="https://github.com/parkrafael" aria-label="GitHub Profile">
-                <i class="fa-brands fa-github fa-xl hover:text-orange-600"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/parkrafael/" aria-label="LinkedIn Profile">
-                <i class="fa-brands fa-linkedin fa-xl hover:text-orange-600"></i>
-            </a>
-            <a href="mailto:rafaelp@student.ubc.ca" aria-label="Email">
-                <i class="fa-solid fa-envelope fa-xl hover:text-orange-600"></i>
-            </a>
-        </nav>
+<body class="p-14 max-w-6xl mx-auto">
+    <header class="flex flex-col items-center">
+        <p class="text-4xl font-bold">Rafael Park</p>
+        <p class="text-xl font-medium text-gray-500 mt-2">Back End Software Engineer</p>
     </header>
 
-    <main>
-        <section class="mb-10">
-            <p class="text-xl font-semibold mb-5">🐥 About Me</p>
+    <main class="space-y-12 my-14">
+        <section>
+            <p class="text-2xl font-semibold mb-4">🐥 About Me</p>
             <p class="text-base font-normal">
                 Hello! I'm Rafael, a fifth-year Computer Science student at The University of British Columbia. Currently, I'm working at Cognitive3D as a Software Engineer Co-op, working with their analytics platform that measures human behavior in VR/AR simulations.
             </p>
-            <p class="text-base font-normal mt-5">
+            <p class="text-base font-normal mt-4">
                 When I'm not working I am...
             </p>
             <ul class="text-base font-normal list-disc list-inside mt-2">
-                <li>Running around the streets of Vancouver 🏃🏻‍♂️</li>
+                <li>Exploring Vancouver's seawall and trails one run at a time 🏃🏻‍♂️</li>
                 <li>Trying all sorts of new foods, with my favourites being Korean 🇰🇷 and Italian 🇮🇹</li>
-                <li>Listening to new music, currently hooked on <a href="https://www.youtube.com/watch?v=ZMnzhtN0vRQ" class="font-semibold hover:text-orange-600">Everything About Her</a> by Amie Blu 🎧</li>
+                <li>Listening to new music, currently hooked on <a href="https://www.youtube.com/watch?v=gb_zQXF3_WM" class="font-semibold hover:text-orange-600">Cannock Chase </a> by Labi Siffre 🎧</li>
             </ul>
         </section>
 
-        <section class="mb-10">
-            <p class="text-xl font-semibold mb-5">💼 Work Experience</p>
-            <div class="grid grid-cols-[1fr_5fr] gap-y-5">
-                <div class="pr-5">
+        <section>
+            <p class="text-2xl font-semibold mb-4">💼 Work Experience</p>
+            <div class="grid grid-cols-[1fr_5fr] gap-y-6">
+                <div class="pr-6">
                     <p class="text-sm font-semibold text-gray-500" style="line-height: 1.5rem;">Jan 2025 — Present</p>
                 </div>
                 <div>
@@ -53,14 +43,18 @@
                     <p class="text-base font-normal mt-2">
                         ‣ Developing VR applications for the Meta Quest, HTC Vive, and Pico headsets in Unity, demonstrating key features of Cognitive3D's platform, such as gaze tracking, spatial heatmapping, and user interaction analytics.
                     </p>
-                    <div class="flex flex-row mt-4 gap-2">
-                        <span class="inline-flex items-center justify-center bg-slate-200 rounded-xl py-1 px-4 text-sm font-semibold">Git</span>
-                        <span class="inline-flex items-center justify-center bg-slate-200 rounded-full py-1 px-4 text-sm font-semibold">Unity</span>
-                        <span class="inline-flex items-center justify-center bg-slate-200 rounded-full py-1 px-4 text-sm font-semibold">C#</span>
-                        <span class="inline-flex items-center justify-center bg-slate-200 rounded-full py-1 px-4 text-sm font-semibold">Java</span>
+                    <div class="flex flex-row flex-wrap mt-4 gap-2">
+                        <span class="inline-flex items-center justify-center bg-gray-200 rounded-full py-1 px-4 text-sm font-semibold">Git</span>
+                        <span class="inline-flex items-center justify-center bg-gray-200 rounded-full py-1 px-4 text-sm font-semibold">Unity</span>
+                        <span class="inline-flex items-center justify-center bg-gray-200 rounded-full py-1 px-4 text-sm font-semibold">C#</span>
+                        <span class="inline-flex items-center justify-center bg-gray-200 rounded-full py-1 px-4 text-sm font-semibold">Java</span>
+                        <span class="inline-flex items-center justify-center bg-gray-200 rounded-full py-1 px-4 text-sm font-semibold">Kafka</span>
+                        <span class="inline-flex items-center justify-center bg-gray-200 rounded-full py-1 px-4 text-sm font-semibold">Flink</span>
+                        <span class="inline-flex items-center justify-center bg-gray-200 rounded-full py-1 px-4 text-sm font-semibold">Cassandra</span>
+                        <span class="inline-flex items-center justify-center bg-gray-200 rounded-full py-1 px-4 text-sm font-semibold">Elasticsearch</span>
                     </div>
                 </div>
-                <div class="pr-5">
+                <div class="pr-6">
                     <p class="text-sm font-semibold text-gray-500" style="line-height: 1.5rem;">Jan 2024 — Apr 2024</p>
                 </div>
                 <div>
@@ -69,22 +63,22 @@
                     </a>
                     <p class="text-base font-medium text-gray-500">Research Analyst Co-op</p>
                     <p class="text-base font-normal mt-2">
-                        ‣ Developed Power Platform applications that provided clients with intuitive interfaces for real-time data access, visualization, and management, improving data accessibility and user experience. <br>
+                        ‣ Built Power Platform applications that provided clients with intuitive interfaces for real-time data access, visualization, and management, improving data accessibility and user experience. <br>
                         ‣ Supported 15+ consulting projects by conducting comprehensive market research and vendor assessments, delivering custom digital solutions supported by Power BI dashboards that drove improvements in client services.
                     </p>
-                    <div class="flex flex-row mt-4 gap-2">
-                        <span class="inline-flex items-center justify-center bg-slate-200 rounded-xl py-1 px-4 text-sm font-semibold">Microsoft Power Apps</span>
-                        <span class="inline-flex items-center justify-center bg-slate-200 rounded-full py-1 px-4 text-sm font-semibold">Microsoft Power BI</span>
-                        <span class="inline-flex items-center justify-center bg-slate-200 rounded-full py-1 px-4 text-sm font-semibold">Microsoft Excel</span>
+                    <div class="flex flex-row flex-wrap mt-4 gap-2">
+                        <span class="inline-flex items-center justify-center bg-gray-200 rounded-full py-1 px-4 text-sm font-semibold">Microsoft Power Apps</span>
+                        <span class="inline-flex items-center justify-center bg-gray-200 rounded-full py-1 px-4 text-sm font-semibold">Microsoft Power BI</span>
+                        <span class="inline-flex items-center justify-center bg-gray-200 rounded-full py-1 px-4 text-sm font-semibold">Microsoft Excel</span>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="mb-10">
-            <p class="text-xl font-semibold mb-5">🌱 Extracurricular Activities</p>
-            <div class="grid grid-cols-[1fr_5fr] gap-y-5">
-                <div class="pr-5">
+        <section>
+            <p class="text-2xl font-semibold mb-4">🌱 Extracurricular Activities</p>
+            <div class="grid grid-cols-[1fr_5fr]">
+                <div class="pr-6">
                     <p class="text-sm font-semibold text-gray-500" style="line-height: 1.5rem;">Sep 2024 — Apr 2025</p>
                 </div>
                 <div>
@@ -99,11 +93,11 @@
             </div>
         </section>
 
-        <section class="mb-10">
-            <p class="text-xl font-semibold mb-5">🚀 Projects</p>
-            <div class="grid grid-cols-[1fr_5fr] gap-y-5">
-                <div class="pr-5">
-                    <img src="/src/static/clinical-logging-platform.png" alt="Clinical Logging Platform" class="w-37 h-25 object-cover rounded-md border-2 border-gray-300 object-left">
+        <section>
+            <p class="text-2xl font-semibold mb-4">🚀 Projects</p>
+            <div class="grid grid-cols-[1fr_5fr]">
+                <div class="pr-6 pt-1">
+                    <img src="./images/flow-leaflets.png" alt="Clinical Logging Platform" class="w-full aspect-3/2 object-cover rounded-md border-2 border-gray-200">
                 </div>
                 <div>
                     <a href="https://github.com/ubclaunchpad/clinical-logging">
@@ -113,15 +107,30 @@
                         ‣ Developed a scalable PostgreSQL database schema using Supabase, capable of managing 1000+ clinical records from various logbook types, along with user information. <br>
                         ‣ Built a RESTful API with Express.js to provide a secure interface for data exchange between the web application and Supabase.
                     </p>
-                    <div class="flex flex-row mt-4 gap-2">
-                        <span class="inline-flex items-center justify-center bg-slate-200 rounded-xl py-1 px-4 text-sm font-semibold">Git</span>
-                        <span class="inline-flex items-center justify-center bg-slate-200 rounded-full py-1 px-4 text-sm font-semibold">React</span>
-                        <span class="inline-flex items-center justify-center bg-slate-200 rounded-full py-1 px-4 text-sm font-semibold">Express.js</span>
-                        <span class="inline-flex items-center justify-center bg-slate-200 rounded-full py-1 px-4 text-sm font-semibold">Flask</span>
+                    <div class="flex flex-row flex-wrap mt-4 gap-2">
+                        <span class="inline-flex items-center justify-center bg-gray-200 rounded-full py-1 px-4 text-sm font-semibold">Git</span>
+                        <span class="inline-flex items-center justify-center bg-gray-200 rounded-full py-1 px-4 text-sm font-semibold">React</span>
+                        <span class="inline-flex items-center justify-center bg-gray-200 rounded-full py-1 px-4 text-sm font-semibold">Express.js</span>
+                        <span class="inline-flex items-center justify-center bg-gray-200 rounded-full py-1 px-4 text-sm font-semibold">Flask</span>
+                        <span class="inline-flex items-center justify-center bg-gray-200 rounded-full py-1 px-4 text-sm font-semibold">Supabase</span>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+
+    <footer class="flex justify-center">
+        <nav class="flex items-center gap-8">
+            <a href="https://github.com/parkrafael" aria-label="GitHub Profile">
+                <i class="fa-brands fa-github fa-xl hover:text-orange-600"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/parkrafael/" aria-label="LinkedIn Profile">
+                <i class="fa-brands fa-linkedin fa-xl hover:text-orange-600"></i>
+            </a>
+            <a href="mailto:rafaelp@student.ubc.ca" aria-label="Email">
+                <i class="fa-solid fa-envelope fa-xl hover:text-orange-600"></i>
+            </a>
+        </nav>
+    </footer>
 </body>
 </html>
